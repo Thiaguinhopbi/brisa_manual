@@ -1,0 +1,30 @@
+{
+    "name": "thiaguinho/nextpass",
+    "description": "Sistema Gerenciador de filas de atendimetno",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Thiaguinho\\Nextpass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago de Souza Rogério",
+            "email": "tdsrogerio@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+
+    "autoload":{
+        "psr-4": {
+            "config\\":"config/",
+            "core\\":"core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+
+}
